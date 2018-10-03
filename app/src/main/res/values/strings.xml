@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Navigation Drawer Example</string>
+    <string name="alarm">Alarm Settings</string>
+    <string name="menu_android">Android Settings</string>
+    <string name="menu_alarm">Alarm Settings</string>
+    <string name="menu_cloud">Download Settings</string>
+    <string name="menu_email">Email</string>
+    <string name="my_app_settings">My App Settings</string>
+</resources>

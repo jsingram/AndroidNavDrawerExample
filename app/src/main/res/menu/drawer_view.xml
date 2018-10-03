@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO: [Step 4] Create a menu resource file and add items to it. -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_alarm_settings"
+            android:icon="@mipmap/ic_alarm"
+            android:title="@string/menu_alarm" />
+        <item
+            android:id="@+id/nav_android_settings"
+            android:icon="@mipmap/ic_android"
+            android:title="@string/menu_android" />
+        <item
+            android:id="@+id/nav_download_settings"
+            android:icon="@mipmap/ic_download_cloud"
+            android:title="@string/menu_cloud" />
+        <item
+            android:id="@+id/nav_email"
+            android:icon="@mipmap/ic_email"
+            android:title="@string/menu_email" />
+    </group>
+</menu>
