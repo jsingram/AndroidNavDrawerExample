@@ -21,6 +21,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     // TODO: [Step 1] Make sure to add the Android Support Libraries support:appcompat and support:design
+
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support:design:27.1.1'
 

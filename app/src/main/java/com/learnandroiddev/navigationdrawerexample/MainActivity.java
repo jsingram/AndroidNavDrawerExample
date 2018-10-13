@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         // TODO [Step 8] Hook your layout to the DrawerLayout variable.
         mDrawerLayout = findViewById(R.id.drawer_layout);
 
-        // TODO [Step 9] Create a NavigationView variable and set it up to recieve callbacks when menu item is tapped.
+        // TODO [Step 9] Create a NavigationView variable and set it up to receive callbacks when menu item is tapped.
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(
                 new NavigationView.OnNavigationItemSelectedListener() {
